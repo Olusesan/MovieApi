@@ -33,9 +33,9 @@
                        @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
                        @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
                        @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8"];
-    self.moviePlayer = [[MPMoviePlayerController alloc] init];
+    
 
-    [self.view addSubview:self.moviePlayer.view];
+    
 
 }
 
@@ -77,6 +77,8 @@
 
     // Use this URL and give it to the movie player
     self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
+    
+    [self.view addSubview:self.moviePlayer.view];
 
     [self.moviePlayer setFullscreen:YES];
 
