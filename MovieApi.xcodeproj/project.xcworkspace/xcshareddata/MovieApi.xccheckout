@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>166AF79B-7AB1-4D2A-9B82-8F063C3E30F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MovieApi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5ECE0D22D8DBC3A6A9EA8A1E8D802C7AD021CC4D</key>
+		<string>https://github.com/Olusesan/MovieApi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MovieApi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5ECE0D22D8DBC3A6A9EA8A1E8D802C7AD021CC4D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Olusesan/MovieApi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5ECE0D22D8DBC3A6A9EA8A1E8D802C7AD021CC4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5ECE0D22D8DBC3A6A9EA8A1E8D802C7AD021CC4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MovieApi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
