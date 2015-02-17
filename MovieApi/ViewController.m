@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 @property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
+@property (nonatomic,strong) NSArray *videolist;
 @end
 
 @implementation ViewController
@@ -20,13 +21,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
  // Do any additional setup after loading the view, typically from a nib.
-    tableList = [[NSArray alloc] initWithObjects:@"Chelsea",@"Manchester United", nil];
-    self.tableList = tableList;
+    self.tableList = @[@"Chelsea",
+                       @"Manchester United",
+                       @"Hello!",
+                       @"How are you?",
+                       @"Goodbye!",
+                       ];
+
+    self.videolist = @[@"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
+                       @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
+                       @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
+                       @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
+                       @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8"];
     self.moviePlayer = [[MPMoviePlayerController alloc] init];
+
+    [self.view addSubview:self.moviePlayer.view];
+
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [tableList count];
+    return [self.tableList count];
 }
 
 
@@ -36,14 +50,39 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleIdentifier];
     }
-    NSInteger row = [indexPath row];
-    NSString *rowString = [tableList objectAtIndex:row];
-    cell.textLabel.text = rowString;
+
+    // Find the index you're at:
+    NSUInteger index = indexPath.row;
+
+    // Find the title for that index, according to our "tableList"
+    NSString *titleForCell = [self.tableList objectAtIndex:index];
+
+    // Take that title, and put it in the cell:
+    cell.textLabel.text = titleForCell;
+
+    // Return the cell for this method:
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"This happened");
+
+    // Find our index from the given indexPath
+    NSUInteger index = indexPath.row;
+
+    // Find the video URL for that index.
+    NSString *videoLinkURLString = [self.videolist objectAtIndex:index];
+
+    // Create a URL out of that string.
+    NSURL *videoURL = [NSURL URLWithString:videoLinkURLString];
+
+    // Use this URL and give it to the movie player
+    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
+
+    [self.moviePlayer setFullscreen:YES];
+
+    // Play the movie player.
+    [self.moviePlayer play];
+
 }
 
 
