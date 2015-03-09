@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
  // Do any additional setup after loading the view, typically from a nib.
     self.tableList = @[@"Chelsea",
                        @"Manchester United",
@@ -29,10 +30,10 @@
                        ];
 
     self.videolist = @[@"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
+                       @"https://s3-us-west-2.amazonaws.com/olusesan/test/prog_index.m3u8",
                        @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
                        @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
-                       @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8",
-                       @"https://s3-us-west-2.amazonaws.com/sesan/prog_index.m3u8"];
+                       @"https://s3-us-west-2.amazonaws.com/olusesan2/prog_index.m3u8"];
     
 
     
