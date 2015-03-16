@@ -2,9 +2,10 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -16,8 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="thu-iH-yka">
-                                <rect key="frame" x="7" y="66" width="361" height="518"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uTJ-Jz-Cg9">
+                                <rect key="frame" x="7" y="40" width="361" height="44"/>
+                                <items>
+                                    <navigationItem title="Premier League iLites" id="Cg6-FA-tC6"/>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="thu-iH-yka">
+                                <rect key="frame" x="7" y="106" width="361" height="501"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="yZu-pF-ee1"/>
@@ -25,8 +32,18 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="thu-iH-yka" firstAttribute="top" secondItem="uTJ-Jz-Cg9" secondAttribute="bottom" constant="22" id="EbK-iO-QF3"/>
+                            <constraint firstItem="uTJ-Jz-Cg9" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="J3T-3A-Xf4"/>
+                            <constraint firstItem="uTJ-Jz-Cg9" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="NXE-cq-fqM"/>
+                            <constraint firstItem="uTJ-Jz-Cg9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-9" id="Saj-ea-y7M"/>
+                            <constraint firstItem="thu-iH-yka" firstAttribute="trailing" secondItem="uTJ-Jz-Cg9" secondAttribute="trailing" id="aSs-Gh-uaH"/>
+                            <constraint firstItem="uTJ-Jz-Cg9" firstAttribute="leading" secondItem="thu-iH-yka" secondAttribute="leading" id="cEl-sK-VHj"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="thu-iH-yka" secondAttribute="bottom" constant="60" id="jmk-qy-oZn"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="4kU-DS-8la"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
