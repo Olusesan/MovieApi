@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5687BE7F-BF59-4DD5-8EF3-BD2FBDF983F0</string>
+	<string>8DDC66AB-EC18-45A9-ACDC-E5C4CBBFC0DD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MovieApi</string>
+	<string>iLites</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5ECE0D22D8DBC3A6A9EA8A1E8D802C7AD021CC4D</key>
 		<string>https://github.com/Olusesan/MovieApi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MovieApi.xcodeproj</string>
+	<string>iLites.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5ECE0D22D8DBC3A6A9EA8A1E8D802C7AD021CC4D</key>

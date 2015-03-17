@@ -17,6 +17,9 @@
 
 @synthesize tableList;
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -66,7 +69,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     // Find our index from the given indexPath
     NSUInteger index = indexPath.row;
 
@@ -77,14 +81,17 @@
     NSURL *videoURL = [NSURL URLWithString:videoLinkURLString];
 
     // Use this URL and give it to the movie player
-    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
+    MPMoviePlayerViewController *moviePlayerViewController = [[MPMoviePlayerViewController alloc] initWithContentURL:videoURL];
+    [self presentMoviePlayerViewControllerAnimated:moviePlayerViewController];
     
-    [self.view addSubview:self.moviePlayer.view];
-
-    [self.moviePlayer setFullscreen:YES];
-
-    // Play the movie player.
-    [self.moviePlayer play];
+//    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
+//    
+//    [self.view addSubview:self.moviePlayer.view];
+//
+//    [self.moviePlayer setFullscreen:YES];
+//
+//    // Play the movie player.
+//    [self.moviePlayer play];
 
 }
 

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD900BCB1A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApi.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD900BCB1A757CDA00F2E8D5 /* iLites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD900BCF1A757CDA00F2E8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD900BD01A757CDA00F2E8D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD900BD21A757CDA00F2E8D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		BD900BD91A757CDA00F2E8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD900BDB1A757CDA00F2E8D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD900BDE1A757CDA00F2E8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BD900BE41A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD900BE41A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLites.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD900BE91A757CDB00F2E8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD900BEA1A757CDB00F2E8D5 /* MovieApiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieApiTests.m; sourceTree = "<group>"; };
 		BD900BF41A757DB900F2E8D5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -76,8 +76,8 @@
 		BD900BCC1A757CDA00F2E8D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD900BCB1A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.app */,
-				BD900BE41A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */,
+				BD900BCB1A757CDA00F2E8D5 /* iLites.app */,
+				BD900BE41A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD900BCA1A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename */ = {
+		BD900BCA1A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD900BEE1A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */;
+			buildConfigurationList = BD900BEE1A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "iLites.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				BD900BC71A757CDA00F2E8D5 /* Sources */,
 				BD900BC81A757CDA00F2E8D5 /* Frameworks */,
@@ -138,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+			name = iLites.temp_caseinsensitive_rename;
 			productName = MovieApi;
-			productReference = BD900BCB1A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.app */;
+			productReference = BD900BCB1A757CDA00F2E8D5 /* iLites.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD900BE31A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests */ = {
+		BD900BE31A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD900BF11A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests" */;
+			buildConfigurationList = BD900BF11A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "iLites.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				BD900BE01A757CDA00F2E8D5 /* Sources */,
 				BD900BE11A757CDA00F2E8D5 /* Frameworks */,
@@ -156,9 +156,9 @@
 			dependencies = (
 				BD900BE61A757CDA00F2E8D5 /* PBXTargetDependency */,
 			);
-			name = MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
+			name = iLites.temp_caseinsensitive_renameTests;
 			productName = MovieApiTests;
-			productReference = BD900BE41A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */;
+			productReference = BD900BE41A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD900BC61A757CDA00F2E8D5 /* Build configuration list for PBXProject "MovieApi" */;
+			buildConfigurationList = BD900BC61A757CDA00F2E8D5 /* Build configuration list for PBXProject "iLites" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -192,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD900BCA1A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename */,
-				BD900BE31A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests */,
+				BD900BCA1A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_rename */,
+				BD900BE31A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +242,7 @@
 /* Begin PBXTargetDependency section */
 		BD900BE61A757CDA00F2E8D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD900BCA1A757CDA00F2E8D5 /* MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename */;
+			target = BD900BCA1A757CDA00F2E8D5 /* iLites.temp_caseinsensitive_rename */;
 			targetProxy = BD900BE51A757CDA00F2E8D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -349,7 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MovieApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename;
+				PRODUCT_NAME = iLites;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -360,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MovieApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename;
+				PRODUCT_NAME = iLites;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -379,7 +379,7 @@
 				);
 				INFOPLIST_FILE = MovieApiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
+				PRODUCT_NAME = iLites.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieApi.app/MovieApi";
 			};
 			name = Debug;
@@ -394,7 +394,7 @@
 				);
 				INFOPLIST_FILE = MovieApiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
+				PRODUCT_NAME = iLites.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieApi.app/MovieApi";
 			};
 			name = Release;
@@ -402,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD900BC61A757CDA00F2E8D5 /* Build configuration list for PBXProject "MovieApi" */ = {
+		BD900BC61A757CDA00F2E8D5 /* Build configuration list for PBXProject "iLites" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD900BEC1A757CDB00F2E8D5 /* Debug */,
@@ -411,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD900BEE1A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */ = {
+		BD900BEE1A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "iLites.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD900BEF1A757CDB00F2E8D5 /* Debug */,
@@ -420,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD900BF11A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests" */ = {
+		BD900BF11A757CDB00F2E8D5 /* Build configuration list for PBXNativeTarget "iLites.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD900BF21A757CDB00F2E8D5 /* Debug */,

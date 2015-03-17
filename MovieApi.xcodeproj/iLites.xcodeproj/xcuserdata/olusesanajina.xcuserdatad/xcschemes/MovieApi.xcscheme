@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-               BuildableName = "MovieAPi.app"
-               BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
-               ReferencedContainer = "container:MovieApi.xcodeproj">
+               BuildableName = "iLites.app"
+               BlueprintName = "iLites.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:iLites.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD900BE31A757CDA00F2E8D5"
-               BuildableName = "MovieAPi.temp_caseinsensitive_renameTests.xctest"
-               BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
-               ReferencedContainer = "container:MovieApi.xcodeproj">
+               BuildableName = "iLites.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "iLites.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:iLites.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD900BE31A757CDA00F2E8D5"
-               BuildableName = "MovieAPi.temp_caseinsensitive_renameTests.xctest"
-               BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
-               ReferencedContainer = "container:MovieApi.xcodeproj">
+               BuildableName = "iLites.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "iLites.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:iLites.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-            BuildableName = "MovieAPi.app"
-            BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
-            ReferencedContainer = "container:MovieApi.xcodeproj">
+            BuildableName = "iLites.app"
+            BlueprintName = "iLites.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:iLites.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-            BuildableName = "MovieAPi.app"
-            BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
-            ReferencedContainer = "container:MovieApi.xcodeproj">
+            BuildableName = "iLites.app"
+            BlueprintName = "iLites.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:iLites.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-            BuildableName = "MovieAPi.app"
-            BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
-            ReferencedContainer = "container:MovieApi.xcodeproj">
+            BuildableName = "iLites.app"
+            BlueprintName = "iLites.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:iLites.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
