@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-               BuildableName = "MovieAPi.app"
+               BuildableName = "MovieApi.temp_caseinsensitive_rename.app"
                BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
                ReferencedContainer = "container:MovieApi.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD900BE31A757CDA00F2E8D5"
-               BuildableName = "MovieAPi.temp_caseinsensitive_renameTests.xctest"
+               BuildableName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest"
                BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
                ReferencedContainer = "container:MovieApi.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD900BE31A757CDA00F2E8D5"
-               BuildableName = "MovieAPi.temp_caseinsensitive_renameTests.xctest"
+               BuildableName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest"
                BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
                ReferencedContainer = "container:MovieApi.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-            BuildableName = "MovieAPi.app"
+            BuildableName = "MovieApi.temp_caseinsensitive_rename.app"
             BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
             ReferencedContainer = "container:MovieApi.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-            BuildableName = "MovieAPi.app"
+            BuildableName = "MovieApi.temp_caseinsensitive_rename.app"
             BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
             ReferencedContainer = "container:MovieApi.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BD900BCA1A757CDA00F2E8D5"
-            BuildableName = "MovieAPi.app"
+            BuildableName = "MovieApi.temp_caseinsensitive_rename.app"
             BlueprintName = "MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
             ReferencedContainer = "container:MovieApi.xcodeproj">
          </BuildableReference>

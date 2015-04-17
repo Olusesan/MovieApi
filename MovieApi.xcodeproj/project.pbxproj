@@ -267,6 +267,71 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BD7EBAB11AB870AE006927B7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "99ec63fd-69d1-49f9-ab03-fb7f866fa03c";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		BD7EBAB21AB870AE006927B7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
+				INFOPLIST_FILE = MovieApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "99ec63fd-69d1-49f9-ab03-fb7f866fa03c";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		BD7EBAB31AB870AE006927B7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MovieApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieApi.app/MovieApi";
+			};
+			name = Distribution;
+		};
 		BD900BEC1A757CDB00F2E8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,7 +349,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -304,6 +370,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "99ec63fd-69d1-49f9-ab03-fb7f866fa03c";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -325,7 +392,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -338,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "99ec63fd-69d1-49f9-ab03-fb7f866fa03c";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -347,9 +416,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
 				INFOPLIST_FILE = MovieApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "99ec63fd-69d1-49f9-ab03-fb7f866fa03c";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -358,9 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Olusesan Ajina (U2RFTUVHVQ)";
 				INFOPLIST_FILE = MovieApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MovieApi.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "99ec63fd-69d1-49f9-ab03-fb7f866fa03c";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -407,6 +480,7 @@
 			buildConfigurations = (
 				BD900BEC1A757CDB00F2E8D5 /* Debug */,
 				BD900BED1A757CDB00F2E8D5 /* Release */,
+				BD7EBAB11AB870AE006927B7 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -416,6 +490,7 @@
 			buildConfigurations = (
 				BD900BEF1A757CDB00F2E8D5 /* Debug */,
 				BD900BF01A757CDB00F2E8D5 /* Release */,
+				BD7EBAB21AB870AE006927B7 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -425,6 +500,7 @@
 			buildConfigurations = (
 				BD900BF21A757CDB00F2E8D5 /* Debug */,
 				BD900BF31A757CDB00F2E8D5 /* Release */,
+				BD7EBAB31AB870AE006927B7 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

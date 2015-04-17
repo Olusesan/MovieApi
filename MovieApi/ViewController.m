@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
+//@property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
 @property (nonatomic,strong) NSArray *videolist;
 @end
 
@@ -25,18 +25,13 @@
     [super viewDidLoad];
     
  // Do any additional setup after loading the view, typically from a nib.
-    self.tableList = @[@"Newcastle VS Man United",
-                       @"West ham VS Chelsea",
-                       @"Man City VS Leicester",
-                       @"QPR VS Arsenal",
-                       @"Liverpool VS Burnley",
-                       ];
+    self.tableList = @[@"Kenya Masacre",@"Street fighting yemen"];
+                       
+                       
 
-    self.videolist = @[@"https://s3-us-west-2.amazonaws.com/manchesterunitedgameweek23/prog_index.m3u8",
-                       @"https://s3-us-west-2.amazonaws.com/chelseagameweek23/prog_index.m3u8",
-                       @"https://s3-us-west-2.amazonaws.com/manchestercitygameweek23/prog_index.m3u8",
-                       @"https://s3-us-west-2.amazonaws.com/arsenalgameweek23/prog_index.m3u8",
-                       @"https://s3-us-west-2.amazonaws.com/liverpoolgameweek23/prog_index.m3u8"];
+    self.videolist = @[@"https://s3-us-west-2.amazonaws.com/kenyamasacre/prog_index.m3u8",
+                       @"https://s3-us-west-2.amazonaws.com/yemen/prog_index.m3u8"
+                       ];
     
 
     
